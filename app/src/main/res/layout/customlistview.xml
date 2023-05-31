@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_headline"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Headline" />
+
+        <TextView
+            android:id="@+id/text_subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Subhead" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="8dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_est"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="Estimasi"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+
+
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text_angka"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:hint="10" />
+
+            <TextView
+                android:id="@+id/text_menit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:hint="Menit" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
